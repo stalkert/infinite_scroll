@@ -1,0 +1,20 @@
+<div class="col-md-4 col-sm-6 col-xs-12 blocks" ng-repeat="item in ctrl.items">
+  <div class="blocks-wrapper">
+    <img ng-src="{{item.image}}">
+
+    <div class="stars">
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star-empty"></span>
+      <span class="glyphicon glyphicon-star-empty"></span>
+    </div>
+    <div class="text-under-foto">
+      <p class="title">{{item.title | uppercase}}</p>
+
+      <p>{{item.paragraph}}</p>
+    </div>
+  </div>
+</div>
+
+

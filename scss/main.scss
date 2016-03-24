@@ -1,0 +1,76 @@
+@import "testuaVariables";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif, Verdana, Helvetica;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+  background-color: #fff;
+  height: 100%;
+}
+
+#bg {
+  background: url('../images/testWork.jpg') no-repeat 0 0 fixed;
+
+  background-size: 1980px auto;
+  min-height: 1200px;
+  .first-line {
+  padding-top: 250px;
+    .blocks {
+      padding: 50px;
+      .blocks-wrapper {
+        max-width: 300px;
+        min-width: 190px;
+        height: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0 auto;
+        img {
+          width: 100%;
+                  }
+        .stars {
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+        .title {
+          text-align: center;
+        }
+      }
+    }
+  }
+  #button-load{
+    text-align: center;
+    position:fixed;
+    bottom:90px;
+    left:50%;
+    margin-left: -3%;
+  }
+  .radio{
+    text-align: center;
+    font-size: 18px;
+    color:red;
+
+  }
+  #first{
+    position:fixed;
+    bottom:40px;
+    left:50%;
+    margin-left: -6%;
+  }
+  #second{
+    position:fixed;
+    bottom:20px;
+    left:50%;
+    margin-left: -6%;
+  }
+}
+#bottom-padding{
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 300px;
+  background-color: #006600;
+}
